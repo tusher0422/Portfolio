@@ -12,16 +12,17 @@
 <body>
     <!-- Navigation Bar -->
     <!-- //NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <span class="h3 fw-bold">Tarekul Islam Tusher</span>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand  mx-lg-auto mb-lg-4" href="#">
+            <span class="h3 fw-bold d-block d-lg-none">Tarekul Islam Tusher</span>
+            <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-column">
     
               <li class="nav-item">
                 <a class="nav-link" href="#home">Home</a>
@@ -47,9 +48,35 @@
           </div>
         </div>
       </nav>
-
-    <script> src = "./assets/js/bootstrap.bundle.min.js"</script>
-    <script> src = "./assets/js/aos.js"</script>  
-    <script> src = "./assets/js/main.js"</script>  
+      <!--Content Wrapper-->
+      <div id="content-wrapper">
+        <!--HOME-->
+        <section id="home" class="full-height bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 class="display-4 fw-bold">I'M A <span class="text-brand">SOFTWARE ENGINEERING STUDENT</span>SOFTWARE ENGINEERING STUDENT FROM NSTU, BANGLADESH</h1>
+                <p class="lead mt-2 mb-4">I am Tarekul Islam Tusher, And I,,,,,,,,description for home page</p>
+                <a href="#works" class="btn btn-brand me-3"> Explore My Work</a>
+                <a href="#" class="line-custom">Call:024432543543</a>
+              </div>
+            </div>
+          </div>
+         
+        </section>
+        <!--Services-->
+        <section id="works" class="full-height px-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1></h1>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    <script src = "./assets/js/bootstrap.bundle.min.js"></script>
+    <script src = "./assets/js/aos.js"></script>  
+    <script src = "./assets/js/main.js"></script>  
 </body>
 </html>
